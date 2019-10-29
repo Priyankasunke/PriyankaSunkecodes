@@ -1,0 +1,16 @@
+class Check_Fibonacciseries
+    def fibonacciseries
+        puts a=0
+        puts b=1
+        (0..10).each do |num|
+            
+           puts c=a+b
+           a=b
+           b=c
+      end  
+        
+        
+    end
+end
+f1=Check_Fibonacciseries.new
+f1.fibonacciseries
